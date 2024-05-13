@@ -6,6 +6,39 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+        <div class="hero-image">
+            <div class="hero-text"></div>
+            <p>Photo by <a href="./">Hallie West</a> on <a href="./">Unsplash</a></p>
+        </div>
+
+        <div class="main-form">
+            <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="italic">now</span> to get started.</h2>
+            <h2>You <span class="italic">know</span> you want to.</h2>
+            <form action="./" method="post">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="user-first" id="first-name">
+                    
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="user-last" id="last-name">
+
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email">
+
+                    <label for="phone-num">PHONE NUMBER</label>
+                    <input type="tel" name="user-phone" id="phone-num">
+
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" required>
+                    
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-password" required>
+                </fieldset>
+                <button type="submit">Create Account</button>
+            </form>
+            <p>Already Have an account? <a href="./">Log in</a></p>
+        </div>
     </body>
 </html>

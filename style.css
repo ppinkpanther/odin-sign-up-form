@@ -43,5 +43,11 @@ table {
 }
 
 
+@font-face {
+    font-family: 'Norse-Text';
+    src: url(./Norse-Bold.otf);
+}
+
+
 
 
