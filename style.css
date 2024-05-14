@@ -59,13 +59,12 @@ body {
 }
 
 .hero-image {
-    flex-grow: 1;
-    max-width: 1862px;
-    height: 100%;
+    flex: 1 0 350px;
     background-image: url(./images/singupBackground.jpg);
-    background-size: contain;
+    background-position: center center;
+    background-size: cover;
     background-repeat: no-repeat;
-
+    /* background-attachment: fixed; */
 
 }
 
@@ -76,13 +75,10 @@ body {
 }
 
 .hero-text img {
-    
     height: 100%;
 
 }
 
 .main-form {
-    flex-grow: 2;
+    flex: 3 1;
 }
-
-
