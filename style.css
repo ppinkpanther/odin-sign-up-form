@@ -105,7 +105,12 @@ body {
 
 .main-form {
     flex: 3 1;
+    background-color: #fbfbfb;
     
-    display: flex;
-    flex-direction: column;
+}
+
+.main-form fieldset {
+    background-color: white;
+    box-shadow: 10px 5px 10px rgb(107, 107, 107);
+    padding: 30px;
 }
