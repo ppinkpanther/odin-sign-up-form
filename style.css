@@ -17,6 +17,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -64,21 +65,47 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 .hero-text {
+    display: flex;
+
+
     width: 100%;
-    height: 10%;
+    height: 10rem;
     background-color: rgba(0, 0, 0, 0.5);
+
+    margin-top: 40%;
+    padding: 10px;
 }
 
 .hero-text img {
     height: 100%;
+    padding-left: 25%;
+}
 
+.hero-text h1 {
+    color: white;
+    font-size: 8rem;
+    line-height: 10rem;
+    text-align: center;
+    font-family: 'Norse-Text', Arial, Helvetica, sans-serif;
+}
+
+.hero-image p,
+.hero-image a {
+    color: white;
 }
 
 .main-form {
     flex: 3 1;
+    
+    display: flex;
+    flex-direction: column;
 }
