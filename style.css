@@ -106,11 +106,20 @@ body {
 .main-form {
     flex: 3 1;
     background-color: #fbfbfb;
-    
+    padding-left: 30px;
+}
+
+.main-form-head {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.main-form-head h2:last-child {
+    padding-top: 30px;
 }
 
 .main-form fieldset {
     background-color: white;
     box-shadow: 10px 5px 10px rgb(107, 107, 107);
-    padding: 30px;
 }
