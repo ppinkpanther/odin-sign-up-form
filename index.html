@@ -22,24 +22,46 @@
             <form action="./" method="post">
                 <fieldset>
                     <legend>Let's do this!</legend>
-
-                    <label for="first-name">FIRST NAME</label>
-                    <input type="text" name="user-first" id="first-name">
                     
-                    <label for="last-name">LAST NAME</label>
-                    <input type="text" name="user-last" id="last-name">
+                    <ul>
+                         <li>  
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="user-first" id="first-name">
+                        </li>
+                        <li>
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="user-last" id="last-name">
+                        </li>
+                    </ul>
 
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
-
-                    <label for="phone-num">PHONE NUMBER</label>
-                    <input type="tel" name="user-phone" id="phone-num">
-
-                    <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password" required>
+                    <ul>
+                        <li>
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </li>
+                        <li>
+                            <label for="phone-num">PHONE NUMBER</label>
+                            <input type="tel" name="user-phone" id="phone-num">
+                        </li>
+                    </ul>
                     
-                    <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm-password" required>
+                    <ul>
+                        <li>
+                            <label for="password">PASSWORD</label>
+                            <input 
+                            type="password" 
+                            name="password" 
+                            id="password" 
+                            required>
+                        </li>
+                        <li>
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input 
+                            type="password" id="confirm-password" 
+                            required>
+                        </li>
+                    </ul>
+                    
                 </fieldset>
                 <button type="submit">Create Account</button>
             </form>
