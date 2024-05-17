@@ -59,6 +59,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .hero-image {
     flex: 1 0 350px;
     background-image: url(./images/singupBackground.jpg);
