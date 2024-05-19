@@ -141,6 +141,14 @@ body {
     gap: 20px;
 }
 
+.main-form fieldset legend {
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+    position: relative;
+    top: 30px;
+}
+
 .main-form fieldset ul {
     display: flex;
     flex-direction: row;
@@ -154,4 +162,23 @@ body {
     flex-direction: column;
     flex-basis: 300px;
     
+
+}
+
+.main-form input[type='text'],
+.main-form input[type='email'],
+.main-form input[type='tel'],
+.main-form input[type='password'] {
+    height: 25px;
+    border: 1px solid rgba(160, 160, 160, 0.685);
+    border-radius: 5px;
+}
+
+.main-form label {
+    font-size: 0.7em;
+    font-weight: bold;
+    color: rgb(65, 64, 64);
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+
 }
