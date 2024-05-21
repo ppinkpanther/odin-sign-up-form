@@ -172,6 +172,8 @@ body {
     height: 25px;
     border: 1px solid rgba(160, 160, 160, 0.685);
     border-radius: 5px;
+    outline: none;
+
 }
 
 .main-form label {
@@ -184,10 +186,14 @@ body {
 }
 
 .main-form input:focus {
-    outline: none;
-    
     border: 2px solid blue;
     box-shadow: 2px 2px 3px rgb(107, 107, 107);
+}
 
+.main-form input:invalid {
+    border: 1px solid rgba(255, 0, 0, 0.5);
+}
 
+.main-form input:invalid:focus {
+    border: 2px solid red;
 }
