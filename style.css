@@ -183,3 +183,11 @@ body {
 
 }
 
+.main-form input:focus {
+    outline: none;
+    
+    border: 2px solid blue;
+    box-shadow: 2px 2px 3px rgb(107, 107, 107);
+
+
+}
