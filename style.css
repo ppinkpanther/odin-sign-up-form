@@ -130,7 +130,6 @@ body {
 
 .main-form fieldset {
     background-color: white;
-    box-shadow: 10px 5px 10px rgb(107, 107, 107);
     width: 100%;
     height: 300px;
     padding-right: 20px;
@@ -139,6 +138,11 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+}
+
+.main-form fieldset:focus-within {
+    box-shadow: 10px 5px 10px rgb(107, 107, 107);
+
 }
 
 .main-form fieldset legend {
@@ -196,4 +200,16 @@ body {
 
 .main-form input:invalid:focus {
     border: 2px solid red;
+}
+
+.main-form form button {
+    margin: 40px 0px 40px 30px;
+
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-color: #4c6b38;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: white;
 }
