@@ -189,6 +189,12 @@ body {
 
 }
 
+.main-form input + .error {
+    color: red;
+    padding-top: 4px;
+    font-size: 0.75rem;
+}
+
 .main-form input:focus {
     border: 2px solid blue;
     box-shadow: 2px 2px 3px rgb(107, 107, 107);
