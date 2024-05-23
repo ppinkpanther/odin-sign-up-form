@@ -138,11 +138,14 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+
+    transition: all 250ms;
+    transition-timing-function: ease-in-out;
+
 }
 
 .main-form fieldset:focus-within {
     box-shadow: 10px 5px 10px rgb(107, 107, 107);
-
 }
 
 .main-form fieldset legend {
